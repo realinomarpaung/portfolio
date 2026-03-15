@@ -16,19 +16,19 @@ export default function Home() {
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '40px', padding: '48px 48px 40px', borderBottom: '1px solid #f0f0f0', alignItems: 'start' }}>
         <div>
           <h1 style={{ fontSize: '28px', fontWeight: 600, lineHeight: 1.2, letterSpacing: '-0.5px', marginBottom: '24px' }}>
-            Designing products that<br />scale and make sense
+            Lorem ipsum dolor sit<br />amet consectetur
           </h1>
           <div style={{ display: 'flex', gap: '10px' }}>
             <button style={{ padding: '8px 16px', border: '1px solid #ddd', borderRadius: '6px', fontSize: '12px', color: '#333', background: 'white', cursor: 'pointer' }}>
-              Get in touch
+              Lorem ipsum
             </button>
             <button style={{ padding: '8px 16px', border: '1px solid #ddd', borderRadius: '6px', fontSize: '12px', color: '#333', background: 'white', cursor: 'pointer' }}>
-              See my work
+              Dolor sit amet
             </button>
           </div>
         </div>
         <div style={{ fontSize: '13px', color: '#555', lineHeight: 1.7, fontWeight: 300, paddingTop: '8px' }}>
-          With 7+ years of experience, I build scalable digital products with a focus on clarity, usability, and design systems. Based in Jogjakarta, working remotely with global teams.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </div>
       </div>
 
@@ -44,13 +44,13 @@ export default function Home() {
       {/* ── TRUST SECTION ── */}
       <div style={{ padding: '40px 48px', borderBottom: '1px solid #f0f0f0' }}>
         <div style={{ fontSize: '18px', fontWeight: 600, letterSpacing: '-0.3px', marginBottom: '6px' }}>
-          A trusted design partner for 40+ clients worldwide.
+          Lorem ipsum dolor sit amet consectetur adipiscing.
         </div>
         <div style={{ fontSize: '13px', color: '#777', fontWeight: 300, marginBottom: '32px' }}>
-          Let's collaborate to turn your vision into a high-impact product.
+          Ut enim ad minim veniam quis nostrud exercitation ullamco.
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(6, 1fr)', gap: '10px' }}>
-          {['Telkom Indonesia', 'Ulma', 'Foodics', 'Amartha', 'Life Insurance Review', 'Vendr', 'Beambox', 'Hostinger', 'Tokopedia', 'My Ssaem', 'Chargeflow', '+ Your company'].map((logo, i) => (
+          {['Lorem Inc', 'Ipsum Co', 'Dolor Ltd', 'Amet Corp', 'Consectetur', 'Adipiscing', 'Elit Studio', 'Sed Do', 'Eiusmod', 'Tempor Inc', 'Labore Co', '+ Your company'].map((logo, i) => (
             <div key={i} style={{ border: '1px solid #f0f0f0', borderRadius: '8px', height: '44px', fontSize: '10px', color: '#999', fontWeight: 500, display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '4px' }}>
               {logo}
             </div>
@@ -68,24 +68,24 @@ export default function Home() {
 
         {[
           {
-            title: 'Streamlining AI app builder experience with cleaner UI',
-            client: 'Watum · 2025',
-            desc: 'Redesigning Vibe Studio to eliminate UI clutter, surface hidden features, streamline upgrades, and make credit information visible—directly addressing user frustrations that were blocking conversions.',
-            tags: ['Redesign', 'Web App', 'Web Design'],
+            title: 'Lorem ipsum dolor sit amet consectetur adipiscing elit',
+            client: 'Lorem Inc · 2025',
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
+            tags: ['Lorem', 'Ipsum', 'Dolor'],
             bg: '#eef2ff'
           },
           {
-            title: "Building Amartha 'Funds' design systems",
-            client: 'Amartha · 2024',
-            desc: "Amartha's product faced scalability challenges with inconsistent UI patterns and fragmented components. We built a robust design system that unified the experience and improved team collaboration.",
-            tags: ['Design Systems', 'Design Governance', 'Documentation'],
+            title: 'Sed do eiusmod tempor incididunt ut labore dolore',
+            client: 'Ipsum Co · 2024',
+            desc: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa.',
+            tags: ['Amet', 'Consectetur', 'Adipiscing'],
             bg: '#fdf4ff'
           },
           {
-            title: 'Building My Ssaem mobile apps for better learning experience',
-            client: 'My Ssaem · 2022',
-            desc: 'From concept to launch: How we transformed the My Ssaem learning experience through a mobile app that prioritizes user engagement, personalized learning paths, and intuitive course navigation.',
-            tags: ['0 to 1', 'Mobile App', 'Visual Design'],
+            title: 'Ut enim ad minim veniam quis nostrud exercitation',
+            client: 'Dolor Ltd · 2022',
+            desc: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.',
+            tags: ['Elit', 'Sed Do', 'Eiusmod'],
             bg: '#f0fdf4'
           }
         ].map((project, i) => (
@@ -114,13 +114,13 @@ export default function Home() {
 
       {/* ── TESTIMONIALS ── */}
       <div style={{ padding: '48px 48px', background: '#fafafa', borderTop: '1px solid #f0f0f0' }}>
-        <div style={{ fontSize: '20px', fontWeight: 600, letterSpacing: '-0.3px', marginBottom: '4px' }}>What colleagues say</div>
-        <div style={{ fontSize: '13px', color: '#888', fontWeight: 300, marginBottom: '32px' }}>Kind words from people I've had the pleasure of working with</div>
+        <div style={{ fontSize: '20px', fontWeight: 600, letterSpacing: '-0.3px', marginBottom: '4px' }}>Lorem ipsum dolor sit</div>
+        <div style={{ fontSize: '13px', color: '#888', fontWeight: 300, marginBottom: '32px' }}>Ut enim ad minim veniam quis nostrud exercitation ullamco</div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px' }}>
           {[
-            { quote: "Working with Realino was a game-changer. His ability to translate complex requirements into clean, intuitive interfaces is something I rarely see. He brings both strategic thinking and pixel-perfect execution.", name: 'Ahmad Rizky', role: 'Product Manager · Tokopedia', initials: 'AR', avatarBg: '#6366f1' },
-            { quote: "Realino has an incredible eye for detail and a deep understanding of user needs. The design system he built for us saved our team months of work and became the foundation for everything we ship.", name: 'Sari Rahayu', role: 'Engineering Lead · Amartha', initials: 'SR', avatarBg: '#f59e0b' },
-            { quote: "One of the most collaborative designers I've worked with. He listens deeply, asks the right questions, and always delivers work that exceeds expectations. A true design partner.", name: 'Budi Pratama', role: 'CEO · Beambox', initials: 'BP', avatarBg: '#10b981' }
+            { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris.", name: 'Lorem Ipsum', role: 'Dolor Sit · Amet Corp', initials: 'LI', avatarBg: '#6366f1' },
+            { quote: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident deserunt mollit.", name: 'Consectetur Elit', role: 'Adipiscing · Ipsum Co', initials: 'CE', avatarBg: '#f59e0b' },
+            { quote: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit.", name: 'Dolor Amet', role: 'Sed Do · Lorem Inc', initials: 'DA', avatarBg: '#10b981' }
           ].map((t, i) => (
             <div key={i} style={{ background: '#fff', border: '1px solid #efefef', borderRadius: '12px', padding: '24px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
               <div>
